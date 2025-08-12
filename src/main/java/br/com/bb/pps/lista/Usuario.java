@@ -1,19 +1,18 @@
-package br.com.bb.pps.domain;
+package br.com.bb.pps.lista;
 
-public class AulaLista {
+public class Usuario extends Trabalho{
 
     private String nome;
     private int idade;
 
 
     //CONSTRUTOR CHEIO
-    public AulaLista(String nome, int idade) {
+    public Usuario(String nome, int idade, String empresa, String funcao) {
+        //construtor da superclasse
+        super(empresa, funcao);
         this.nome = nome;
         this.idade = idade;
     }
-
-    //CONSTRUTOR VAZIO
-    public AulaLista(){}
 
     public String getNome() {
         return nome;
@@ -35,6 +34,7 @@ public class AulaLista {
     @Override
     //toString() -> é uma metodo que retornar uma representação do objeto como string
     public String toString(){
-        return "Nome: " + this.getNome() + "\nIdade: " + this.getIdade() + "\n";
+        //                                                                     chamando o toString da superclasse
+        return "Nome: " + this.getNome() + "\nIdade: " + this.getIdade() + "\n" + super.toString();
     }
 }

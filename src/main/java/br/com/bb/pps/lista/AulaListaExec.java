@@ -1,9 +1,5 @@
-package br.com.bb.pps.exec;
+package br.com.bb.pps.lista;
 
-import br.com.bb.pps.domain.AulaLista;
-import org.w3c.dom.ls.LSOutput;
-
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -13,7 +9,7 @@ public class AulaListaExec {
         Scanner input = new Scanner(System.in);
 
         //CRIAÇÃO DE UM ARRAYLIST
-        ArrayList<AulaLista> listaUsuario = new ArrayList<>();
+        ArrayList<Usuario> listaUsuario = new ArrayList<>();
 
         int qtdNome = 2;
 
@@ -26,7 +22,13 @@ public class AulaListaExec {
             int idade = input.nextInt();
             input.nextLine();
 
-            AulaLista lista = new AulaLista(nome, idade);
+            System.out.println("Empresa: ");
+            String empresa = input.nextLine();
+
+            System.out.println("Função: ");
+            String funcao = input.nextLine();
+
+            Usuario lista = new Usuario(nome, idade, empresa, funcao);
 
             //ADICIONANDO ELEMENTOS AO ARRAY
             listaUsuario.add(lista);

@@ -3,7 +3,7 @@ package br.com.bb.pps.lista;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class AulaListaExec {
+public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

@@ -35,3 +35,17 @@ CONSTRUTOR
 - podemos criar o construturo cheio, que torna obrigatória o recebimento de dados no objeto
 - quando um construtor cheio é criado e o vazio não, a classe não possui o vazio, o que torna obrigatória o recebimento de todos os dados
 - não é uma boa pratica criar todos os gets e sets, deve-se cria-los quando se sabe se algo pode ser alterado, inserido e tudo mais
+- é um recurso para encapsular objetos
+- o tipo do array pode ser uma superclasse, assim o array irá englobar todas as subclasses que extendem ela
+------------------------------------------------------------------------------------------------------------------------
+FOR-EACH
+
+- permite que se percorra todos os elementos de uma lista, sem a necessidade de se preocupar com índices ou o tamanho dela, tornando o código mais simples e legível
+- percorre todos os elementos da lista e os atribui a uma variável que será usada para alguma operação
+- útil em situação que não há a necessidade de realizar nenhuma operação complexa sobre os elementos da lista
+- possibilita a iteração sobre os elementos da lista de forma mais concisa e elegante
+  ArrayList<Trabalho> listaUsuario = new ArrayList<>();
+  nomes.forEach(nome -> System.out.println(nome));
+------------------------------------------------------------------------------------------------------------------------
+VARIAVEIS DE REFERENCIAS
+- formas de fazer referencia a um objeto

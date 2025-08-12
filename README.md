@@ -1,3 +1,5 @@
+DOC JAVA -> https://docs.oracle.com/en/java/
+------------------------------------------------------------------------------------------------------------------------
 DECLARAR VARIÁVEIS COM VAR
  
  - a partir do java 10 é possível declarar variáveis usar a palavra chave "VAR", ela faz com que o compilador infira
@@ -10,7 +12,6 @@ DECLARAR VARIÁVEIS COM VAR
     um valor inicial
 ------------------------------------------------------------------------------------------------------------------------
  ARRAYS
-
  
  - são estruturas de dados que permitem armazenar uma coleção de dados do mesmo tipo
  - um array comum deve ter seu tipo e tamano defidos
@@ -22,3 +23,7 @@ DECLARAR VARIÁVEIS COM VAR
  - também pode-se criar arrays de objetos, assim ele armazenara os dados referentes a um objeto
  - arrays não possuem métodos que falicitam um "CRUD", por isso existem classes Java, como o ArrayList, que encapsulam
     e abstraem um arrays, adicionando métodos em uma estrutura de array
+------------------------------------------------------------------------------------------------------------------------
+OBJECT
+
+- todo objeto em java possui uma serie de métodos prontos que podemos usar, como o toString

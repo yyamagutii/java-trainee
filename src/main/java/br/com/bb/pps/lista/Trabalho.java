@@ -1,6 +1,6 @@
 package br.com.bb.pps.lista;
 
-public class Trabalho {
+public abstract class Trabalho /*implements Comparable<Trabalho>*/{
     private String empresa;
     private String funcao;
 
@@ -29,4 +29,12 @@ public class Trabalho {
     public String toString() {
         return "Empresa: " + this.empresa + "\nFunção: " + this.funcao;
     }
+
+    /*
+    @Override
+    public int compareTo(Trabalho outroTrabalho) {
+        return this.empresa.compareTo(outroTrabalho.getEmpresa());
+    }
+    */
+
 }

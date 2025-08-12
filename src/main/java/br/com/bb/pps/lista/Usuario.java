@@ -37,4 +37,5 @@ public class Usuario extends Trabalho{
         //                                                                     chamando o toString da superclasse
         return "Nome: " + this.getNome() + "\nIdade: " + this.getIdade() + "\n" + super.toString();
     }
+
 }

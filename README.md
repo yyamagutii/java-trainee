@@ -30,7 +30,7 @@ OBJECT
 ------------------------------------------------------------------------------------------------------------------------
 CONSTRUTOR
 
-- um construtor é um método especial usado para criar e inicializar um objeto recém-criado
+- um construtor é um método especial usado para criar e inicializar um objeto recém-criado, usados para popular um objeto
 - por padrão o java cria um construtor vazio/default, que permite que o objeto simplesmente não receba nada
 - podemos criar o construturo cheio, que torna obrigatória o recebimento de dados no objeto
 - quando um construtor cheio é criado e o vazio não, a classe não possui o vazio, o que torna obrigatória o recebimento de todos os dados

@@ -19,16 +19,14 @@ public class AulaListaExec {
 
         for(int i = 1; i <= qtdNome; i++){
 
-            AulaLista lista = new AulaLista();
-
             System.out.println("nome: ");
             String nome = input.nextLine();
-            lista.setNome(nome);
 
             System.out.println("idade: ");
             int idade = input.nextInt();
             input.nextLine();
-            lista.setIdade(idade);
+
+            AulaLista lista = new AulaLista(nome, idade);
 
             //ADICIONANDO ELEMENTOS AO ARRAY
             listaUsuario.add(lista);

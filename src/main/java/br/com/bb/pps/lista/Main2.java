@@ -5,7 +5,7 @@ import java.util.*;
 public class Main2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        ArrayList<Trabalho> listaUsuario = new ArrayList<>();
+        List<Trabalho> listaUsuario = new LinkedList<>();
 
         int qtdNome;
         System.out.print("Quantos usuarios deseja incluir: ");

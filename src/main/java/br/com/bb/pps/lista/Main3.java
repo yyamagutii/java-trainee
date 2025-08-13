@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Main3 {
     public static void main(String[] args) {
-
+        /*
         ArrayList<String> buscarPorNome = new ArrayList<>();
         buscarPorNome.add("Lucas");
         buscarPorNome.add("Maria");
@@ -18,5 +18,6 @@ public class Main3 {
         // ordenar por ordem alfabetica
         Collections.sort(buscarPorNome);
         System.out.println("Ordem alfabetica: " + buscarPorNome);
+         */
     }
 }
